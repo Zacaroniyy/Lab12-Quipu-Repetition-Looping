@@ -34,7 +34,7 @@ Your quipu:
               |
               ‾
 
-Would you like to make another quipu? [Y/N]: ",match
+Would you like to make another quipu? [Y/N]:",match
 Test 3,"345
 Y
 123
@@ -81,7 +81,7 @@ Your quipu:
               |
               ‾
 
-Would you like to make another quipu? [Y/N]: ",match
+Would you like to make another quipu? [Y/N]:",match
 Test 4,"999
 N
 ","Please enter a number between 0 and 999: Hundreds   = 9
@@ -123,7 +123,7 @@ Your quipu:
               |
               ‾
 
-Would you like to make another quipu? [Y/N]: ",match
+Would you like to make another quipu? [Y/N]:",match
 Test 5,"4
 N
 ","Please enter a number between 0 and 999: Hundreds   = 0
@@ -142,4 +142,4 @@ Your quipu:
               |
               ‾
 
-Would you like to make another quipu? [Y/N]: ",match
+Would you like to make another quipu? [Y/N]:",match
