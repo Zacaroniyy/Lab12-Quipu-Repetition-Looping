@@ -1,0 +1,145 @@
+Test 1,"0
+N
+","Please enter a number between 0 and 999: Hundreds   = 0
+Tens       = 0
+Ones       = 0
+
+Your quipu:
+             ___
+              |
+              |
+              |
+              |
+              ‾
+
+Would you like to make another quipu? [Y/N]:",match
+Test 2,"25
+N
+","Please enter a number between 0 and 999: Hundreds   = 0
+Tens       = 2
+Ones       = 5
+
+Your quipu:
+             ___
+              |
+              |
+              *
+              *
+              |
+              *
+              *
+              *
+              *
+              *
+              |
+              ‾
+
+Would you like to make another quipu? [Y/N]: ",match
+Test 3,"345
+Y
+123
+N
+","Please enter a number between 0 and 999: Hundreds   = 3
+Tens       = 4
+Ones       = 5
+
+Your quipu:
+             ___
+              |
+              *
+              *
+              *
+              |
+              *
+              *
+              *
+              *
+              |
+              *
+              *
+              *
+              *
+              *
+              |
+              ‾
+
+Would you like to make another quipu? [Y/N]: Please enter a number between 0 and 999: Hundreds   = 1
+Tens       = 2
+Ones       = 3
+
+Your quipu:
+             ___
+              |
+              *
+              |
+              *
+              *
+              |
+              *
+              *
+              *
+              |
+              ‾
+
+Would you like to make another quipu? [Y/N]: ",match
+Test 4,"999
+N
+","Please enter a number between 0 and 999: Hundreds   = 9
+Tens       = 9
+Ones       = 9
+
+Your quipu:
+             ___
+              |
+              *
+              *
+              *
+              *
+              *
+              *
+              *
+              *
+              *
+              |
+              *
+              *
+              *
+              *
+              *
+              *
+              *
+              *
+              *
+              |
+              *
+              *
+              *
+              *
+              *
+              *
+              *
+              *
+              *
+              |
+              ‾
+
+Would you like to make another quipu? [Y/N]: ",match
+Test 5,"4
+N
+","Please enter a number between 0 and 999: Hundreds   = 0
+Tens       = 0
+Ones       = 4
+
+Your quipu:
+             ___
+              |
+              |
+              |
+              *
+              *
+              *
+              *
+              |
+              ‾
+
+Would you like to make another quipu? [Y/N]: ",match
