@@ -6,5 +6,21 @@
   "java.project.referencedLibraries": [
     ".test/checkstyle-10.17.0-all.jar",
     ".test/junit-platform-console-standalone-1.11.0-M2.jar"
-  ]
+  ],
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/.devcontainer": true,
+    "**/.test": true,
+    "**/.vscode": true,
+    "**/.github": true,
+    "**/.gitignore": true
+  },
+  "extensions.ignoreRecommendations": true,
+  "java.format.settings.url": ".vscode/eclipse-java-google-style.xml",
+  "markdown.preview.doubleClickToSwitchToEditor": false
 }

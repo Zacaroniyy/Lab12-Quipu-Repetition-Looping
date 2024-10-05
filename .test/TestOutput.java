@@ -54,7 +54,7 @@ public class TestOutput
         // Perform the corresponding assertion based on the match type
         switch (matchType) {
             case "exact":
-                assertEquals(expectedOutput, actualOutput, "Exact match failed for " + testCaseName);
+                assertEquals(expectedOutput, actualOutput);
                 break;
             case "match":
                 assertTrue(actualOutput.contains(expectedOutput), "Match failed for " + testCaseName +
