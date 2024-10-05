@@ -34,27 +34,34 @@ You will be constructing an Inca Quipu in a Java program, such that a user may t
 ### Step 1
 Write a static method that will take an integer input and print the appropriate number of vertical knots represented by asterisks. Use the method `printCentered()` from `UtilityBelt` class for the output. For example, invoking the method with the input 3 should output:
 
-		              *
-                          *
-                          *
+```
+              *
+              *
+              *
+```
+
+*Note: The width of your Quipu should be 30. This will be the first parameter to `printCentered()`.*
 
 ### Step 2
 Next, write another static method that will take the hundreds, tens and ones place of a number as inputs and print the quipu. Invoke your first method and `printCentered()` to help you format the output. For example, inputs 2,3,1 should produce:
 
-		              ---
-                           |
-                           *
-                           *
-                           |
-                           *
-                           *
-                           *
-                           |
-                           *
-                           |
-                           ‾
+```
+Your quipu:
+             ___
+              |
+              *
+              *
+              |
+              *
+              *
+              *
+              |
+              *
+              |
+              ‾
+```
 
-Note: The top is underscores and the bottom is an overline (\u203E).
+*Note: The top is underscores and the bottom is an overline (`\u203E`).*
 
 ### Step 3
 Figure out an algorithm to split up a number, for example 352, into the hundreds: 3, tens: 5, and ones: 2 places.
